@@ -184,7 +184,11 @@ h5 {
     }
 }
 
-@media (max-width: 480) {
+@media (max-width: 480px) {
+
+    p.roles {
+        padding-bottom: 70px;
+    }
 
     .grid-container {
         grid-template-columns: 1fr;
