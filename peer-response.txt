@@ -1,0 +1,7 @@
+"Make sure all of your pages link to each other with href attributes. I was able to go to your Roles page from Home but not Home from Roles."
+
+I fixed this by making sure the href attributes to link the pages were present on all 4 pages.
+
+"2. Don't forget to add footers on your website"
+
+Made sure to add the footer code to all 4 pages.

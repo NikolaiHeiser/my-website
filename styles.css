@@ -1,6 +1,11 @@
+@font-face {
+    font-family: 'Overwatch'; /* Custom Overwatch font*/
+    src: url('OVERWATCH.ttf') format('truetype'); 
+}
+
 p.roles {
 
-padding-bottom: 600px;
+padding-bottom: 600px; /* used this to make sure the footer wasn't too high */
 
 }
 .highlight {
@@ -37,8 +42,8 @@ a:hover {
 
 h1 {
     font-family: 'Verdana', sans-serif;
-    font-size: 2rem;
-    color: #2f4f4f;
+    font-size: 3rem;
+    color: #424242;
     margin-bottom: 20px;
     border-bottom: 2px solid #2f4f4f;
     padding-bottom: 10px;
