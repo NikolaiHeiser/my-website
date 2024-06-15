@@ -113,3 +113,44 @@ h5 {
     font-size: 2rem;
 
 }
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+    max-width: 640px;
+}
+
+@media (max-width: 768px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+        text-align: left;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .center {
+        width: 75%;
+    }
+}
+
+@media (max-width: 480px) {
+    .topnav a {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p, ol, ul, footer {
+        font-size: 0.9em;
+    }
+
+    .center {
+        width: 100%;
+    }
+}
