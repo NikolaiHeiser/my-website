@@ -136,7 +136,7 @@ h5 {
     }
 }
 
-@media (max-width: 480) {
+@media (max-width: 320) {
     .topnav a {
         padding: 10px;
         font-size: 14px;
