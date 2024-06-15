@@ -1,13 +1,16 @@
 @font-face {
-    font-family: 'Overwatch'; /* Custom Overwatch font*/
-    src: url('OVERWATCH.ttf') format('truetype'); 
+    font-family: 'Overwatch';
+    /* Custom Overwatch font*/
+    src: url('OVERWATCH.ttf') format('truetype');
 }
 
 p.roles {
 
-padding-bottom: 600px; /* used this to make sure the footer wasn't too high */
+    padding-bottom: 600px;
+    /* used this to make sure the footer wasn't too high */
 
 }
+
 .highlight {
     background-color: #f0f8ff;
     border-left: 4px solid #4682b4;
@@ -47,6 +50,10 @@ h1 {
     margin-bottom: 20px;
     border-bottom: 2px solid #2f4f4f;
     padding-bottom: 10px;
+}
+h5 {
+
+    font-size: 20px;
 }
 
 body {
@@ -133,7 +140,6 @@ article {
     column-count: 3;
     column-gap: 35px;
     column-rule: 2px solid black
-
 }
 
 h5 {
