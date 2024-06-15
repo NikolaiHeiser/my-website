@@ -136,7 +136,7 @@ h5 {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480) {
     .topnav a {
         padding: 10px;
         font-size: 14px;
@@ -152,5 +152,9 @@ h5 {
 
     .center {
         width: 100%;
+    }
+
+    .responsive-img {
+        width: 50%;
     }
 }
